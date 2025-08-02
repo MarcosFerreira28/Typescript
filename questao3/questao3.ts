@@ -54,8 +54,7 @@ function resumirLivro (livro: Livro) : string {
     return frase
 }
 
-
-
+//criado todos os métodos get e set mesmo que não sejam usados
 
 let livro = new Livro("Dom Casmurro", "Machado de Assis", 1899);
 

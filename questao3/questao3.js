@@ -32,7 +32,8 @@ function resumirLivro(livro) {
     let frase = `O livro ${livro.titulo} foi escrito por ${livro.autor} em ${livro.anoPublicacao}`;
     return frase;
 }
+//criado todos os métodos get e set mesmo que não sejam usados
 let livro = new Livro("Dom Casmurro", "Machado de Assis", 1899);
 let frase = resumirLivro(livro);
-console.log(livro);
+console.log(frase);
 //# sourceMappingURL=questao3.js.map
