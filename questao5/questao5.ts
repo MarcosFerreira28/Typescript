@@ -6,7 +6,7 @@ interface IPessoa {
     genero: Genero
 }
 
-function apresentarPessoa(pessoa: IPessoa) {
+function apresentarPessoa(pessoa: IPessoa) : string {
     let mensagem = `${pessoa.nome} tem ${pessoa.idade} anos e se identifica como ${pessoa.genero}`;
     return mensagem;
 }
