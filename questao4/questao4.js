@@ -1,10 +1,17 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-let usuario = {
-    nome: "Marcos",
-    email: "teste@gmail.com",
-    exibirInfo() { return `Nome: ${this.nome} - Email: ${this.email}`; }
-};
+class Usuario {
+    nome;
+    email;
+    exibirInfo() {
+        return `Nome: ${this.nome} - Email: ${this.email}`;
+    }
+    constructor(nome, email) {
+        this.nome = nome;
+        this.email = email;
+    }
+}
+let usuario = new Usuario("Marcos", "teste@gmail.com");
 let info = usuario.exibirInfo();
 console.log(info);
 //# sourceMappingURL=questao4.js.map

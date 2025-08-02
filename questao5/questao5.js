@@ -18,6 +18,6 @@ let pessoa = {
     idade: 21,
     genero: "masculino"
 };
+//ou usar: let x = new Pessoa ("Marcos", 21, masculino)
 console.log(apresentarPessoa(pessoa));
-//tentar adicionar logica para tolowercase
 //# sourceMappingURL=questao5.js.map
