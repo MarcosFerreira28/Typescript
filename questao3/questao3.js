@@ -36,4 +36,14 @@ function resumirLivro(livro) {
 let livro = new Livro("Dom Casmurro", "Machado de Assis", 1899);
 let frase = resumirLivro(livro);
 console.log(frase);
+function resumirLivroSimples(livro) {
+    let frase = `O livro ${livro.titulo} foi escrito por ${livro.autor} em ${livro.anoPublicacao}`;
+    return frase;
+}
+let objlivro = {
+    titulo: "Dom Casmurro",
+    autor: "Machado de Assis",
+    anoPublicacao: 1899
+};
+console.log(resumirLivroSimples(objlivro));
 //# sourceMappingURL=questao3.js.map
