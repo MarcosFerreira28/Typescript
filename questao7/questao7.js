@@ -11,4 +11,17 @@ const resposta2 = {
 };
 console.log(resposta1);
 console.log(resposta2);
+/////////////////////////////////////// feito com classe //////////////////////////////////
+class RespostaAPI {
+    dados;
+    sucesso;
+    constructor(dados, sucesso) {
+        this.dados = dados;
+        this.sucesso = sucesso;
+    }
+}
+const resposta1classe = new RespostaAPI("ERRO", true);
+const resposta2classe = new RespostaAPI([1, 2, 3], false);
+console.log(resposta1classe);
+console.log(resposta2classe);
 //# sourceMappingURL=questao7.js.map
