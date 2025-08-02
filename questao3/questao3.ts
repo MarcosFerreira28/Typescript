@@ -78,6 +78,6 @@ let objlivro = {
     titulo: "Dom Casmurro",
     autor: "Machado de Assis",
     anoPublicacao: 1899
-}
+} as ILivroSimples
 
 console.log (resumirLivroSimples(objlivro))
