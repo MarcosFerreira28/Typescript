@@ -1,6 +1,5 @@
 function retornarElemento<T>(array: Array<T>, index: number){
     if (index < 0 || index > array.length){
-        // console.log("Esse index é inválido")
         return `O index ${index} é inválido!`;
     }
     return array[index];
