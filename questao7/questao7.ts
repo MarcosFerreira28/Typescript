@@ -27,11 +27,13 @@ class RespostaAPI<T> implements IRespostaAPI<T>{
         this.dados = dados;
         this.sucesso = sucesso;
     }
+
+
 }
 
 const resposta1classe = new RespostaAPI("ERRO", true);
 
 const resposta2classe = new RespostaAPI([1, 2, 3], false);
 
-console.log(resposta1classe);
+console.log(JSON.parse(JSON.stringify(resposta1classe)));
 console.log(resposta2classe);
