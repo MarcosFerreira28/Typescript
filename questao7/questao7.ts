@@ -27,8 +27,6 @@ class RespostaAPI<T> implements IRespostaAPI<T>{
         this.dados = dados;
         this.sucesso = sucesso;
     }
-
-
 }
 
 const resposta1classe = new RespostaAPI("ERRO", true);

@@ -4,6 +4,7 @@ function adicionar(a, b) {
     return a + b;
 }
 let total = 100;
+// const adicionar = (a : any, b : any) => a + b;
 const resultado = adicionar(20, 40);
 console.log(resultado);
-//# sourceMappingURL=index.js.map
+//# sourceMappingURL=questao1.js.map
