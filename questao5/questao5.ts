@@ -29,6 +29,6 @@ let pessoa = {
     genero: "masculino"
 } as Pessoa
 
-//ou usar: let x = new Pessoa ("Marcos", 21, masculino)
+//ou usar: let pessoa = new Pessoa ("Marcos", 21, masculino)
 
 console.log(apresentarPessoa(pessoa))
