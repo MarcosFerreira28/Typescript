@@ -1,4 +1,6 @@
-function adicionar(a : any, b: any){ //tipagem explícita "any" inserida pois se não for colocado dessa forma o TypeScript sempre dá erro. Colocado any pois na questão pede para não explicitar o tipo.
+
+//tipagem explícita "any" inserida pois se não for colocado dessa forma o TypeScript sempre dá erro. Colocado any pois na questão pede para não explicitar o tipo.
+function adicionar(a : any, b: any){ 
     return a + b;
 }
 
